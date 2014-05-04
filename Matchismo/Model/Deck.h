@@ -12,6 +12,10 @@
 //1
 //2
 //3
+
+//4
+//5
+
 @interface Deck : NSObject
 
 - (void) addCard:(Card *)card atTop:(BOOL)atTop;
