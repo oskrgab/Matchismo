@@ -11,8 +11,9 @@
 @interface PlayingCard :Card
 //david
 //Oscar
-// Oscar comentario
+//Oscar comentario
 //Comentarios
+//Cambios que hago antes de hacer
 
 @property (strong, nonatomic) NSString *suit;
 @property (nonatomic) NSUInteger rank;
