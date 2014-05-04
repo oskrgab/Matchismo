@@ -15,6 +15,7 @@
 //Comentarios
 // Cambio Oscar
 //Otro cambio
+//Cambios que hago antes de hacer
 
 @property (strong, nonatomic) NSString *suit;
 @property (nonatomic) NSUInteger rank;
