@@ -11,7 +11,7 @@
 @interface PlayingCard :Card
 //david
 //Oscar
-// Oscar comentario
+//Oscar comentario
 //Comentarios
 // Cambio Oscar
 //Otro cambio
