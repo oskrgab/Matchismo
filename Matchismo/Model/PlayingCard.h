@@ -9,6 +9,7 @@
 #import "Card.h"
 
 @interface PlayingCard :Card
+//david
 
 @property (strong, nonatomic) NSString *suit;
 @property (nonatomic) NSUInteger rank;
