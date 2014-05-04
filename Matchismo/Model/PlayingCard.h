@@ -16,5 +16,5 @@
 + (NSArray *) validSuits;
 + (NSArray *) rankStrings;
 + (NSUInteger) maxRank;
-//hello
+//hello again
 @end
