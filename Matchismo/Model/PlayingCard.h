@@ -10,6 +10,7 @@
 
 @interface PlayingCard :Card
 //david
+//Oscar
 
 @property (strong, nonatomic) NSString *suit;
 @property (nonatomic) NSUInteger rank;
