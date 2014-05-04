@@ -13,6 +13,8 @@
 //Oscar
 // Oscar comentario
 //Comentarios
+// Cambio Oscar
+//Otro cambio
 
 @property (strong, nonatomic) NSString *suit;
 @property (nonatomic) NSUInteger rank;
