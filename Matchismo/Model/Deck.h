@@ -11,6 +11,8 @@
 
 @interface Deck : NSObject
 
+//Oscar comement 1
+
 - (void) addCard:(Card *)card atTop:(BOOL)atTop;
 - (void) addCard:(Card *)card;
 
