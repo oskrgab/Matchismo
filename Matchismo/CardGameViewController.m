@@ -20,10 +20,15 @@
 - (Deck *) playingDeck
 {
     if (!_playingDeck) {
-        _playingDeck = [[PlayingCardDeck alloc]init];
+        _playingDeck = [self createDeck];
     }
     
     return _playingDeck;
+}
+
+- (Deck *) createDeck
+{
+    return [[PlayingCardDeck alloc]init];
 }
 
 -(void) setFlipCount:(int)flipCount
@@ -43,9 +48,12 @@
         [sender setTitle:@"" forState:UIControlStateNormal];
     } else {
         currentCard = [self.playingDeck drawRandomCard];
-        [sender setBackgroundImage:[UIImage imageNamed:@"cardfront"]
-                          forState:UIControlStateNormal];
-        [sender setTitle:currentCard.contents forState:UIControlStateNormal];
+        if (currentCard) {
+            [sender setBackgroundImage:[UIImage imageNamed:@"cardfront"]
+                              forState:UIControlStateNormal];
+            [sender setTitle:currentCard.contents forState:UIControlStateNormal];
+        }
+        
     }
     
     self.flipCount++;
